@@ -3,13 +3,14 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "INDEX"
 			}
 		},
 		{
 			"path": "pages/page2/page2",
 			"style": {
-				"navigationBarTitleText": "page2"
+				"navigationBarTitleText": "page2",
+				"navigationBarBackgroundColor": "#dd524d"
 			}
 		},
 		{
@@ -17,12 +18,18 @@
 			"style": {
 				"navigationBarTitleText": "page3"
 			}
+		},
+		{
+			"path": "pages/page4/page4",
+			"style": {
+				"navigationBarTitleText": "PAGE4"
+			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
+		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#00aa00",
 		"backgroundColor": "#F8F8F8"
 	},
 	"uniIdRouter": {}

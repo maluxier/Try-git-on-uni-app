@@ -9,10 +9,13 @@
 <script setup>
 	import {onLoad, onShow} from '@dcloudio/uni-app'
 	onLoad(()=>{
-		console.log('111');
+		console.log('show_page2');
 	})
 	onShow(function(){
 		console.log("page2页面显示");
+	})
+	onunload(()=>{
+		console.log("unload_page2")
 	})
 </script>
 
