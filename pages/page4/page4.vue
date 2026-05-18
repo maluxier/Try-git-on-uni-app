@@ -18,6 +18,7 @@
 	.bg-img{
 		width: 200rpx;
 		height: 200rpx;
+		margin-top: 200rpx;
 		background-image: url(~@/static/logo.png);
 		/*~@转换图片为base64,
 		如果微信小程序中图片>40kb无法自动转换成base64，

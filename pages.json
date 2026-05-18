@@ -3,34 +3,69 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "INDEX"
+				"navigationBarTitleText": "首页"
 			}
 		},
 		{
 			"path": "pages/page2/page2",
 			"style": {
-				"navigationBarTitleText": "page2",
-				"navigationBarBackgroundColor": "#dd524d"
+				"navigationBarTitleText": "分类"
 			}
 		},
 		{
 			"path": "pages/page3/page3",
 			"style": {
-				"navigationBarTitleText": "page3"
+				"navigationBarTitleText": "购物车"
 			}
 		},
 		{
 			"path": "pages/page4/page4",
 			"style": {
-				"navigationBarTitleText": "PAGE4"
+				"navigationBarTitleText": "我的"
 			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "white",
+		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#00aa00",
+		"navigationBarBackgroundColor": "#dadada",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#555555",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		// "position": "top",//只支持微信小程序
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/Icon/首页.png",
+				"selectedIconPath": "/static/Icon/首页 (1).png",
+				"text": "Index"
+			},
+			{
+				"pagePath": "pages/page2/page2",
+				"iconPath": "/static/Icon/分类.png",
+				"selectedIconPath": "/static/Icon/分类 (1).png",
+				"text": "page2"
+			},
+			{
+				"pagePath": "pages/page3/page3",
+				"iconPath": "/static/Icon/购物车空.png",
+				"selectedIconPath": "/static/Icon/购物车空 (1).png",
+				"text": "page3"
+			},
+			{
+				"pagePath": "pages/page4/page4",
+				"iconPath": "/static/Icon/我的.png",
+				"selectedIconPath": "/static/Icon/我的 (1).png",
+				"text": "page4"
+			}
+		]
+		// "midButton": {
+		// 	"backgroundImage": "/static/logo.png"
+		}
 	},
 	"uniIdRouter": {}
 }

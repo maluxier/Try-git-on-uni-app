@@ -5,13 +5,12 @@
 			<view class="text">
 				<text class="title">{{ok? title:title2}}</text>
 			</view>
-			<!-- <view class="bottun">
+			<view class="bottun">
 				<button :type="buttontype" @click="change">你是高手吗</button>
-				<button :type="buttun2" @click="shagouchange()">Try this</button>
+				<button :type="buttun2" @click="shagouchange">Try this</button>
 				
-				<navigator url="/pages/page2/page2" open-type="navigate"><button :type="buttun2">点击跳转</button></navigator>
-				<navigator url="/pages/page3/page3" open-type="navigate"><button :type="buttontype">点击跳转</button></navigator>
-			</view> -->
+				<button :type="buttontype" @click="toPage('/pages/page3/page3')">跳转</button>
+			</view>
 		</view>
 	</view>
 </template>
@@ -46,6 +45,11 @@
 			},
 			shagouchange(){
 				this.title = '你是啥狗'
+			},
+			toPage(a){
+				uni.switchTab({
+					url:a
+				})
 			}
 		}
 	}
